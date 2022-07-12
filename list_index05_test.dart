@@ -4,6 +4,6 @@ import 'package:test/test.dart';
 void main() {
   int t = 05;
   test('task$t', () {
-    expect(l.func(['hey', 'hi', 'hello'], 2), 'hello');
+    expect(l.func(['hey', 'hi', 'hello'], 2), ['hello']);
   });
 }

@@ -51,7 +51,7 @@ for task_name in keys:
     lst.append(dct)
     print(dct)
 
-print(tests)
+
 with open('data.json', 'w') as f1:
     json.dump(lst, f1, indent=4, separators=(',', ':'))
     print('finish')
